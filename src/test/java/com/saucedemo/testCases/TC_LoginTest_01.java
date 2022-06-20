@@ -2,7 +2,6 @@ package com.saucedemo.testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.saucedemo.pageObject.LoginPage;
 
 public class TC_LoginTest_01 extends BaseClass {
@@ -26,14 +25,10 @@ public class TC_LoginTest_01 extends BaseClass {
 			Assert.assertTrue(true);
 			logger.info("Login test passed");
 		}
-		else
-		{
+		else{
 			Assert.assertTrue(false);
 			logger.info("Login test failed");
 			logger.info("------------***----------------");
-		}
-			
-		
+		}	
 	}
-
 }
